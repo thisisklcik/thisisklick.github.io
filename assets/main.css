@@ -153,7 +153,7 @@
 }
 .chat_box{
     width: 70%;
-    height: 500px;
+    height: 650px;
     background-color: white;
     position: relative;
     top: 10px;
@@ -166,6 +166,20 @@
     position: relative;
     left: 40%;
     gap: 20px;  
+}
+.footer img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    /* position: absolute; */
+    align-items: center;
+    left: 40%;
+    gap: 20px;
+}
+.footer h5{
+    text-align: center;
+    /* font-size: 5px; */
+    margin-bottom: 20px;
 }
 @media  only screen and (max-width: 767px) {
 
