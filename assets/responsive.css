@@ -1,0 +1,99 @@
+
+
+:root{
+    --main-color:#867210;
+    --main-color-light:#86106c;
+    --text-color:#861010;
+    --text-color-light:#102A86;
+    --bg-color:#102A86;
+    --bg-color-light:#102A86;
+    --bg-color-dark:#102A86;
+    --bg-color-darker:#108616;
+    --text-color-light:#102A86;
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .container_first {
+        width: 100%;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
+    .container_first,
+    .second_container,
+    .third_container,
+    .forth_container,
+    .fifth_container {
+        width: 172%;
+    }
+
+    .second_container{
+
+        background-color: var(--bg-color-darker);
+    }
+
+    .third_container{
+
+        background-color: var(--main-color);
+    }
+
+
+    .forth_container{
+
+        background-color: var(--text-color);
+    }
+
+    .chat_box{
+        margin : 0 auto;
+    }
+
+    .container_first h1 {
+        font-size: 4rem;
+    }
+
+    .container_first p {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+
+    .second_container img,
+    .third_container img,
+    .forth_container img,
+    .fifth_container img {
+        width: 83%;
+        top: 100px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .second_container h1,
+    .third_container h1,
+    .forth_container h1,
+    .fifth_container h1 {
+        font-size: 23.5px;
+
+        margin-top: 128px;
+        padding: 13px 30px 58px 68px;
+        text-align: right;
+        padding-right: 20px;
+        color: #000;
+    }
+
+    .fifth_container h1 { 
+        font-size: 30px;
+        position: relative;
+        top: 44px;
+        text-align: left;
+        font-family: Helvetica;
+        margin: 0 auto;
+    }
+
+    .fifth_container p{
+        text-align: center;
+    }
+}
