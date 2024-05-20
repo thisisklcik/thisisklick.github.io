@@ -29,7 +29,7 @@
     color: white;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-top: 120px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -56,18 +56,19 @@
     color: white;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 28px;
     position: absolute;
-    margin-left: 114px;
+    margin-left: 80px;
 }
 .second_container h1{
     color: white;
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 33%;
+    margin-left: 65%;
+    margin-right: 5%;
     font-size: 40px;
     margin-top: -67px;
 }
@@ -83,11 +84,11 @@
     color: white;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 28px;
     position: absolute;
-    margin-left: 114px;
+    margin-left: 80px;
 }
 .third_container img{
     width: 33%;
@@ -101,7 +102,8 @@
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30%;
+    margin-left: 65%;
+    margin-right: 5%;
     font-size: 37px;
     margin-top: -98px;
 }
@@ -124,24 +126,25 @@
     color: white;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 28px;
     position: absolute;
-    margin-left: 114px;
+    margin-left: 80px;
 }
 .forth_container h1{
     color: white;
     text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30%;
+    margin-left: 65%;
+    margin-right: 5%;
     font-size: 37px;
 }
 .fifth_container{
     justify-content: center;
     width: 100%;
-    height: 1900px;
+    height: 1750px;
     background-color:aliceblue;
 }
 .contant{
@@ -168,6 +171,21 @@
     left: 40%;
     gap: 20px;  
 }
+.fifth_container p{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.fifth_container h1{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-style: italic;
+
 .footer img{
     height: 80px;
     width: 80px;

@@ -49,6 +49,7 @@
 
     .chat_box{
         margin : 0 auto;
+        height: 445px;
     }
 
     .container_first h1 {
@@ -65,7 +66,8 @@
     .third_container img,
     .forth_container img,
     .fifth_container img {
-        width: 83%;
+        width: 70%;
+        height: 70%;
         top: 100px;
         position: relative;
         margin: 0 auto;
@@ -80,6 +82,8 @@
         margin-top: 128px;
         padding: 13px 30px 58px 68px;
         text-align: right;
+        margin-left: 20%;
+        margin-right: 7%;
         padding-right: 20px;
         color: #000;
     }
@@ -95,5 +99,7 @@
 
     .fifth_container p{
         text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
