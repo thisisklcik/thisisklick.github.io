@@ -17,6 +17,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
     .container_first {
         width: 100%;
+        /* height: 1315px; */
     }
 }
 
@@ -29,6 +30,7 @@
     .forth_container,
     .fifth_container {
         width: 172%;
+        height: 1315px;
     }
 
     .second_container{
