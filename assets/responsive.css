@@ -33,11 +33,13 @@
     }
 
     .fifth_container{
+        justify-content: center;
         width: 172%;
-        height: 1585px;
+        height: 1800px;
+        background-color:#e9ece1;
     }
 
-    .second_container{
+    /* .second_container{
 
         background-color: var(--bg-color-darker);
     }
@@ -51,7 +53,7 @@
     .forth_container{
 
         background-color: var(--text-color);
-    }
+    } */
 
     .chat_box{
         margin : 0 auto;
@@ -114,17 +116,51 @@
     }
 
     .fifth_container h1 { 
-        font-size: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 75px;
         position: relative;
-        top: 44px;
+        /* top: 44px; */
         text-align: left;
         font-family: Helvetica;
         margin: 0 auto;
     }
 
-    .fifth_container p{
-        text-align: center;
+    .fifth_container h3{
+        text-align: left;
+        padding-top: 65px;
         padding-left: 50px;
         padding-right: 50px;
+        font-size: 75px;
+        margin-top: 0px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .fifth_container h5{
+        text-align: left;
+        padding-left: 115px;
+        padding-right: 50px;
+        font-size: 30px;
+        margin-top: 0px;
+        font-weight: bold;
+        /* font-style: italic; */
+    }
+
+    .fifth_container p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1;
+    }
+    .footer{
+        height: 100px;
+        width: 740px;
+        background-color: #e9ece1;
+        text-align: center;
+        font-size: 20px;
     }
 }
