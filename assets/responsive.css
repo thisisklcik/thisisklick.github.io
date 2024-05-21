@@ -27,10 +27,14 @@
     .container_first,
     .second_container,
     .third_container,
-    .forth_container,
-    .fifth_container {
+    .forth_container{
         width: 172%;
         height: 1315px;
+    }
+
+    .fifth_container{
+        width: 172%;
+        height: 1585px;
     }
 
     .second_container{
@@ -56,11 +60,17 @@
 
     .container_first h1 {
         font-size: 4rem;
+        margin-top: 320px;
+    }
+
+    .container_first img {
+        margin-top: 100px;
     }
 
     .container_first p {
         font-size: 25px;
         font-weight: 100;
+        margin-top: 520px;
     }
 
 
@@ -68,9 +78,9 @@
     .third_container img,
     .forth_container img,
     .fifth_container img {
-        width: 70%;
+        width: 90%;
         height: 70%;
-        top: 100px;
+        top: 200px;
         position: relative;
         margin: 0 auto;
     }
@@ -80,14 +90,27 @@
     .forth_container h1,
     .fifth_container h1 {
         font-size: 23.5px;
-
-        margin-top: 128px;
+        margin-top: 250px;
         padding: 13px 30px 58px 68px;
         text-align: right;
         margin-left: 20%;
         margin-right: 7%;
         padding-right: 20px;
         color: #000;
+    }
+
+    .second_container h2,
+    .third_container h2,
+    .forth_container h2,
+    .fifth_container h2 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        /* font-weight: bold; */
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 40px;
     }
 
     .fifth_container h1 { 

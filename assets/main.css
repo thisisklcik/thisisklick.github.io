@@ -202,3 +202,10 @@
     margin-bottom: 20px;
 }
 
+.footer_socials{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
