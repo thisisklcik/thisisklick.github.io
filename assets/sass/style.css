@@ -1897,8 +1897,8 @@ Header Menu
   position: relative;
 }
 .header__area-center {
-  max-width: 45%;
-  flex: 0 0 45%;
+  /* max-width: 45%; */
+  flex: 0 -1 45%;
   padding-right: 15px;
   padding-left: 15px;
   justify-content: right;
@@ -3962,7 +3962,7 @@ Responsive Menu Css
 
 @media (max-width: 1400px) {
   .header__area {
-    padding: 0 50px;
+    padding: 0 20px;
     background: #000000;
   }
 }
