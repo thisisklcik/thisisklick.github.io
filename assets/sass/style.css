@@ -88,6 +88,7 @@ button:focus {
 
 .section-padding {
   padding: 120px 0px;
+  background: #cdcdcd;
 }
 
 /*==========================================================================
@@ -2640,7 +2641,7 @@ Contact
 .contact__list-item {
   padding: 60px 40px;
   transition: all 0.3s ease-out 0s;
-  box-shadow: 0 0 90px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 90px rgba(255, 0, 0, 0.10);
   text-align: center;
 }
 .contact__list-item:hover {
@@ -2696,8 +2697,15 @@ Contact
 .contact__form-form {
   background: #fff;
   padding: 60px 40px;
-  box-shadow: 0 0 70px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 70px rgba(255, 253, 253, 0.1);
 }
+
+.career__form-form {
+  background: #fff;
+  padding: 60px 40px;
+  box-shadow: 0 0 70px rgba(255, 0, 0, 0.15);
+}
+
 .contact__form-form-title {
   max-width: 600px;
   margin: 0 auto;
@@ -4066,6 +4074,7 @@ Page
   text-align: center;
   padding-top: 115px;
   padding-bottom: 120px;
+  
 }
 .page__banner::after {
   position: absolute;
@@ -4077,6 +4086,7 @@ Page
   z-index: -1;
   background: #0A0A0B;
   opacity: 0.8;
+  
 }
 .page__banner-content h2 {
   color: #fff;
@@ -4152,6 +4162,7 @@ Background
 ========================================================================== */
 .thin-bg {
   background: #F5F5F5;
+  /* box-shadow: 0 0 70px rgba(255, 34, 34, 0.15); */
 }
 
 .primary-bg {
