@@ -2643,6 +2643,7 @@ Contact
   transition: all 0.3s ease-out 0s;
   box-shadow: 0 0 90px rgba(255, 0, 0, 0.10);
   text-align: center;
+  background: #fff;
 }
 .contact__list-item:hover {
   background: #EE4036;
@@ -3937,6 +3938,9 @@ Search Box CSS
   margin-top: 5px;
 }
 
+.activenow {
+  color: #bb3b3b;
+}
 /*==========================================================================
 Responsive Menu Css
 ========================================================================== */
